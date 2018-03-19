@@ -97,6 +97,13 @@ public class UrlValidatorTest extends TestCase {
 	   
    }
    
+	public static void main(String[] argv) {
 
+	   UrlValidatorTest fct = new UrlValidatorTest("url test");
+		fct.testManualTest();
+		fct.testYourFirstPartition();
+		fct.testYourSecondPartition();
+	   	fct.testIsValidPrograming();
+	}
 
 }
